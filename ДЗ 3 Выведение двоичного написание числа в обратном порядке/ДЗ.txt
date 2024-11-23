@@ -1,0 +1,33 @@
+Домашнее задание
+Упрощение логических выражений
+
+Цель:
+упростить логические выражения.
+
+
+Описание/Пошаговая инструкция выполнения домашнего задания:
+Упростить логические выражения, например
+Y = ABCD+ABC+ABCD+ABD+ABCD+BCD+A
+Y=ABC+ABC
+Y=ABC+AB
+Y=ABCD+ABCD+ðA+B+C+DÞ
+
+------------- РЕШЕНИЕ
+
+Y=ABCD+ABC+ABCD+ABD+ABCD+BCD+A=BCD+A
+Т.К.
+1.ABCD+ABCD+ABCD=ABCD
+2.ABCD+ABC+ABD+BCD+A = A(BCD+BC+BD+1)+BCD
+3.BCD+BC+BD+1 = 1
+
+
+--------------
+Y=ABC+ABC=ABC
+Т.К. A+A = A
+
+--------------
+Y=ABC+AB=AB(C+1)=AB
+
+--------------
+Y=ABCD+ABCD+ðA+B+C+DÞ = B(ACD+ACD+1)+ðA+C+DÞ = B+ðA+C+DÞ
+Т.К ACD+ACD+1=1
