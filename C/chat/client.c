@@ -22,7 +22,7 @@ int main(void) {
     int status_ip = 0;
     char *ip = get_ip_localhost(&status_ip);
     //char *ip = "192.168.98.129" //
-    if (status_ip != 0 & ip == NULL) {
+    if (status_ip != 0 && ip == NULL) {
         fprintf(stderr, "Error resolving the ip localhost\n");
         return 1;
     }
